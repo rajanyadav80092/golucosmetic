@@ -1,9 +1,10 @@
 *{
-    margin:0px;
-    padding:0px;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 body{
-    background-color: gainsboro;
+    background:rgb(217, 213, 207);
 }
 
 .nav-class{
@@ -114,7 +115,7 @@ body{
     font-size: 1.1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-@media (max-width: 768px) {
+@media (max-width: 666px) {
 
     .nav-class {
         font-size: 14px;
