@@ -5,6 +5,7 @@
 }
 body{
     background:rgb(217, 213, 207);
+    filter:blur(.45px)
 }
 
 .nav-class{
@@ -71,6 +72,7 @@ body{
     max-width: 140px;
     text-align: center;
     transition: 0.5s ease;
+    filter: brightness(1.15);
 }
 
 .div1 img:hover{
@@ -162,7 +164,7 @@ body{
 
 
 .footer-class img:hover{
-    transform: scale(1.5);
+    transform: scale(1.75);
 }
 .footer-class h3{
     color:deeppink;
