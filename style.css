@@ -4,7 +4,6 @@
     box-sizing:border-box;
 }
 body{
-    background:rgb(217, 213, 207);
     filter:blur(.45px)
 }
 
@@ -23,12 +22,26 @@ body{
 
 }
 
+.product{
+    width:100%;
+    height:auto;
+    position: relative;
+    top:0px;
+    background-color: aquamarine;
+    color:blanchedalmond;
+    text-align: center;
+}
+
+.product a{
+    text-decoration: none;
+}
+
 .nav-class h2:hover{
     color:rgb(197, 193, 180);
 }
 
 
-.offer{
+#offer{
     position: relative;
     top:10px;
     max-height: 40px;
@@ -41,13 +54,18 @@ body{
     text-align: center;
 }
 
-.offer p{
+#offer h3{
+    background-color: coral;
+}
+#offer p{
     font-size: 1.5rem;
     color:black;
+    background-color: #25D366;
 }
 
-.offer h3:hover{
+#offer h3:hover{
     color:sienna;
+    
 }
 
 .div-class{
@@ -60,6 +78,7 @@ body{
     text-align: center;
     justify-content: center;
     gap:10px;
+   
 }
 
 .div1{
@@ -79,15 +98,15 @@ body{
     transform: scale(1.03);
 }
 
-.offer2{
-    background-color: antiquewhite;
-    margin-top:4rem;
+#offer2{
     width: 100%;
     height: auto;
-    text-align: center;
-    display: flex;
     flex-wrap: wrap;
+    background-color: #25D366;
+    margin-top: 4rem;
+    display: flex;
     justify-content: center;
+
 }
 .div2-class{
     margin-top: 50px;
@@ -117,6 +136,8 @@ body{
     font-size: 1.1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+
 @media (max-width: 666px) {
 
     .nav-class {
@@ -130,13 +151,13 @@ body{
         flex: 1 1 100%;
         max-width: 100%;
     }
-    .footer-class{
+    #footer-class{
         flex: 1 1 100%;
         max-width: 100%;
     }
 
 
-    .footer-class h2 {
+    #footer-class h2 {
         font-size: 14px;
         font-size: 1.6rem;
     }
@@ -150,10 +171,11 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 
 }
 
-.footer-class img{
+#footer-class img{
     flex:1 1 180px;
     width: 200px;
     height: auto;
@@ -163,16 +185,16 @@ body{
 }
 
 
-.footer-class img:hover{
+#footer-class img:hover{
     transform: scale(1.90);
 }
-.footer-class h3{
+#footer-class h3{
     color:deeppink;
     font-size: 1.3rem;
     
 }
 
-.footer-class a{
+#footer-class a{
     text-decoration: none;
     font-size: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -181,8 +203,8 @@ body{
 .whatsapp{
 
 position:fixed;
-bottom:20px;
-right:20px;
+bottom:2px;
+right:6px;
 background:#25D366;
 color:white;
 padding:15px 20px;
